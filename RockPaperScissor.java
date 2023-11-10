@@ -53,7 +53,7 @@ final class RockPaperScissor {
         // Inputs.
         final Scanner userInput = new Scanner(System.in);
         System.out.print("\nPlease make your choice "
-            + "(rock, paper, or scissors):");
+            + "(rock, paper, or scissors): ");
         final String choice = userInput.nextLine();
 
         // Generated choice
